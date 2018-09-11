@@ -7,7 +7,12 @@
     "url": "https://github.com/zippyui/react-date-picker/issues"
   },
   "bundleDependencies": false,
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Evgenii Khromkov",
+      "email": "khromkov@gmail.com"
+    }
+  ],
   "dependencies": {
     "lodash.throttle": "^4.0.1",
     "object-assign": "4.0.1",
