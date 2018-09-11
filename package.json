@@ -79,7 +79,7 @@
   },
   "scripts": {
     "babel": "./node_modules/.bin/babel --out-dir lib src",
-    "build": "npm run styles && npm run lib",
+    "build": "npm run lib",
     "dev": "webpack-dev-server --progress --config build/webpack.config.js",
     "lib": "rimraf lib && npm run babel",
     "lint": "eslint src/**",
