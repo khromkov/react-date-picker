@@ -6,7 +6,6 @@
   "bugs": {
     "url": "https://github.com/zippyui/react-date-picker/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Evgenii Khromkov",
@@ -14,14 +13,12 @@
     }
   ],
   "dependencies": {
+    "@zippytech/react-notify-resize": "github:khromkov/react-notify-resize",
     "lodash.throttle": "^4.0.1",
     "object-assign": "4.0.1",
     "raf": "3.2.0",
     "react-class": "2.0.0",
-    "react-field": "2.0.2",
-    "react-flex": "2.2.7",
-    "react-inline-block": "2.0.0",
-    "react-notify-resize": "1.0.3",
+    "react-flex": "git+https://github.com/khromkov/fork-react-flex.git",
     "react-style-normalizer": "1.2.8"
   },
   "deprecated": "React-Date-Picker 5.x and older is deprecated. The authors of these versions have disappeared. Please upgrade to version 6.x to get fully maintained package with support for React 16. It requires some changes on your side, but in most cases it shouldn't take you more than a few minutes. See project's page for instructions and support.",
@@ -31,6 +28,7 @@
     "babel-cli": "^6.7.7",
     "babel-core": "^6.5.0",
     "babel-loader": "^6.2.4",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.15",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.15.5",
@@ -42,8 +40,6 @@
     "mocha": "^2.2.4",
     "node-libs-browser": "^0.5.2",
     "node-sass": "^3.5.3",
-    "react": ">=0.14.0 || >=15.0.0",
-    "react-dom": ">=0.14.0 || >=15.0.0",
     "react-hot-loader": "^1.2.8",
     "rimraf": "^2.5.2",
     "sass-loader": "^3.2.0",
@@ -67,7 +63,7 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "name": "react-date-picker",
+  "name": "jk-react-date-picker",
   "peerDependencies": {
     "react": ">=0.14.0 || >=15.0.0 || >=16.0.0",
     "moment": ">=2.8.0",
@@ -86,5 +82,5 @@
     "prepublish": "npm run build",
     "styles": "theme-builder"
   },
-  "version": "5.3.28"
+  "version": "5.4.0-beta.6"
 }

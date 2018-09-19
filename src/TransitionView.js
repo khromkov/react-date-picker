@@ -15,7 +15,7 @@ import NavBar from './NavBar'
 import { Flex } from 'react-flex'
 import times from './utils/times'
 
-import InlineBlock from 'react-inline-block'
+import InlineBlock from './InlineBlock'
 import normalize from 'react-style-normalizer'
 
 const renderHiddenNav = (props) => <InlineBlock {...props} style={{visibility: 'hidden'}} />

@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 import Component from 'react-class'
 
 import { Flex, Item } from 'react-flex'
-import InlineBlock from 'react-inline-block'
+import InlineBlock from './InlineBlock'
 
 import assign from 'object-assign'
 

@@ -4,10 +4,10 @@ import Component from 'react-class'
 import assign from 'object-assign'
 
 import { Flex } from 'react-flex'
-import Input from 'react-field'
+import Input from '../ReactField'
 import DateFormatInput from '../DateFormatInput'
 
-import InlineBlock from 'react-inline-block'
+import InlineBlock from '../InlineBlock'
 
 import { CLEAR_ICON } from './icons'
 import moment from 'moment'
